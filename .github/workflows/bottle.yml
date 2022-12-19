@@ -1,0 +1,22 @@
+name: Bottle
+
+on:
+  push:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Build bottles
+        run: brew install --build-bottle bowtie-json-schema/tap/bowtie
+
+      - name: Extract bottles
+        run: brew bottle bowtie-json-schema/tap/bowtie
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: Bottles
+          path: .
