@@ -1,11 +1,11 @@
 class Bowtie < Formula
   include Language::Python::Virtualenv
 
-  desc "A meta-validator for the JSON Schema Specifications"
+  desc "Meta-validator for the JSON Schema Specifications"
   homepage "https://bowtie-json-schema.github.io/bowtie/"
   url "https://github.com/bowtie-json-schema/bowtie.git",
-    tag: "v0.60.2",
-    revision: "5e99f0656d420125906cc52d5e8ab82f66be077c"
+      tag:      "v0.60.2",
+      revision: "5e99f0656d420125906cc52d5e8ab82f66be077c"
   license "MIT"
 
   livecheck do
