@@ -3,10 +3,15 @@ class Bowtie < Formula
 
   desc "A meta-validator for the JSON Schema Specifications"
   homepage "https://bowtie-json-schema.github.io/bowtie/"
-  url "https://files.pythonhosted.org/packages/7d/47/ecaecd6e3d840a7816fe66badcb7e3746aa9ceb7efab6d4a16d2739dec1a/bowtie_json_schema-0.57.2.tar.gz"
-  version "0.57.2"
-  sha256 "8fc4eab9483c2796dc039076d7e308f3e6e9b1ef8fd67487abcf75063df8cefa"
+  url "https://github.com/bowtie-json-schema/bowtie.git",
+    tag: "v0.60.2",
+    revision: "5e99f0656d420125906cc52d5e8ab82f66be077c"
   license "MIT"
+
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
 
   depends_on "rust" => :build  # for cryptography
   depends_on "podman"
