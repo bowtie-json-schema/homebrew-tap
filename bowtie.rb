@@ -4,8 +4,8 @@ class Bowtie < Formula
   desc "Meta-validator for the JSON Schema Specifications"
   homepage "https://bowtie-json-schema.github.io/bowtie/"
   url "https://github.com/bowtie-json-schema/bowtie.git",
-      tag:      "v0.71.0",
-      revision: "f362fae6ad6bc9c7199b355a5bb92b4a05eb07a7"
+      tag:      "v0.71.1",
+      revision: "992c241bb1271090bfdf1989b6f632ced4b16ef9"
   license "MIT"
 
   livecheck do
