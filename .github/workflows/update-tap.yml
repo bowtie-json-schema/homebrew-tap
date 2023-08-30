@@ -16,3 +16,4 @@ jobs:
           tap: bowtie-json-schema/homebrew-tap
           force: false
           livecheck: true
+          no_fork: true
