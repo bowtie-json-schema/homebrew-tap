@@ -67,6 +67,16 @@ class Bowtie < Formula
     sha256 "392cb88b597247177172e02da6b7a63deeff1937fa6fec3bbf902ebd75d97ec7"
   end
 
+  resource "diagnostic" do
+    url "https://files.pythonhosted.org/packages/62/8f/e8600f6c2b52b620be7bfda707955f7cf6ebe78cac899add840dc066f8c7/diagnostic-2.0.0.tar.gz"
+    sha256 "2a92379a6189ec9dd37f8f228fb20b4b409d7c6044dcd9fd65ed658745bb2467"
+  end
+
+  resource "docutils" do
+    url "https://files.pythonhosted.org/packages/1f/53/a5da4f2c5739cf66290fac1431ee52aff6851c7c8ffd8264f13affd7bcdd/docutils-0.20.1.tar.gz"
+    sha256 "f08a4e276c3a1583a86dce3e34aba3fe04d02bba2dd51ed16106244e8a923e3b"
+  end
+
   resource "frozenlist" do
     url "https://files.pythonhosted.org/packages/8c/1f/49c96ccc87127682ba900b092863ef7c20302a2144b3185412a08480ca22/frozenlist-1.4.0.tar.gz"
     sha256 "09163bdf0b2907454042edb19f887c6d33806adc71fbd54afc14908bfdc22251"
@@ -158,8 +168,8 @@ class Bowtie < Formula
   end
 
   resource "rpds-py" do
-    url "https://files.pythonhosted.org/packages/ee/12/d6cfa2699916e5ece53a42e486e03b5a14e672c76ddb16d4649efcf9efb8/rpds_py-0.10.6.tar.gz"
-    sha256 "4ce5a708d65a8dbf3748d2474b580d606b1b9f91b5c6ab2a316e0b0cf7a4ba50"
+    url "https://files.pythonhosted.org/packages/75/be/e3f366aa4cd1e3a814f136773e506fc5423eff903ef0372a251df34e6e45/rpds_py-0.12.0.tar.gz"
+    sha256 "7036316cc26b93e401cedd781a579be606dad174829e6ad9e9c5a0da6e036f80"
   end
 
   resource "six" do
@@ -195,6 +205,11 @@ class Bowtie < Formula
   resource "uritemplate" do
     url "https://files.pythonhosted.org/packages/d2/5a/4742fdba39cd02a56226815abfa72fe0aa81c33bed16ed045647d6000eba/uritemplate-4.1.1.tar.gz"
     sha256 "4346edfc5c3b79f694bccd6d6099a322bbeb628dbf2cd86eea55a456ce5124f0"
+  end
+
+  resource "url-py" do
+    url "https://files.pythonhosted.org/packages/e7/45/982cd767602a8288c4445538ba4098d70ebfcb16255c15efb512d5939cad/url_py-0.9.1.tar.gz"
+    sha256 "11dfdbf69aa1c850ea0bda1e6682b361cd46a8507b8287b4c8ca385c91a275da"
   end
 
   resource "urllib3" do
