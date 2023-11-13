@@ -208,8 +208,8 @@ class Bowtie < Formula
   end
 
   resource "url-py" do
-    url "https://files.pythonhosted.org/packages/e7/45/982cd767602a8288c4445538ba4098d70ebfcb16255c15efb512d5939cad/url_py-0.9.1.tar.gz"
-    sha256 "11dfdbf69aa1c850ea0bda1e6682b361cd46a8507b8287b4c8ca385c91a275da"
+    url "https://files.pythonhosted.org/packages/86/95/d99ff0f21d643838b1aa20047fd742c7faea266672d9ca832b4f140b07a8/url_py-0.9.2.tar.gz"
+    sha256 "b20aebc70a32792c4ddaeed3023225e7d9ce6fd4eac78f9b23588ed6db3342d7"
   end
 
   resource "urllib3" do
