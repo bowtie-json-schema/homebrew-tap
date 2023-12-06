@@ -88,8 +88,8 @@ class Bowtie < Formula
   end
 
   resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/33/44/ae06b446b8d8263d712a211e959212083a5eda2bf36d57ca7415e03f6f36/importlib_metadata-6.8.0.tar.gz"
-    sha256 "dbace7892d8c0c4ac1ad096662232f831d4e64f4c4545bd53016a3e9d4654743"
+    url "https://files.pythonhosted.org/packages/db/5a/392426ddb5edfebfcb232ab7a47e4a827aa1d5b5267a5c20c448615feaa9/importlib_metadata-7.0.0.tar.gz"
+    sha256 "7fc841f8b8332803464e5dc1c63a2e59121f46ca186c0e2e182e80bf8c1319f7"
   end
 
   resource "jsonschema" do
@@ -98,8 +98,8 @@ class Bowtie < Formula
   end
 
   resource "jsonschema-specifications" do
-    url "https://files.pythonhosted.org/packages/d4/84/8f5072792a260016048d3a5ae5186ec3be9e090480ddf5446484394dd8c3/jsonschema_specifications-2023.11.1.tar.gz"
-    sha256 "c9b234904ffe02f079bf91b14d79987faa685fd4b39c377a0996954c0090b9ca"
+    url "https://files.pythonhosted.org/packages/8c/ce/1eb873a0ba153cf327464c752412b42d11b9c889d208beca7ef75540d128/jsonschema_specifications-2023.11.2.tar.gz"
+    sha256 "9472fc4fea474cd74bea4a2b190daeccb5a9e4db2ea80efcf7a1b582fc9a81b8"
   end
 
   resource "linkify-it-py" do
@@ -148,8 +148,8 @@ class Bowtie < Formula
   end
 
   resource "referencing" do
-    url "https://files.pythonhosted.org/packages/61/11/5e947c3f2a73e7fb77fd1c3370aa04e107f3c10ceef4880c2e25ef19679c/referencing-0.31.0.tar.gz"
-    sha256 "cc28f2c88fbe7b961a7817a0abc034c09a1e36358f82fedb4ffdf29a25398863"
+    url "https://files.pythonhosted.org/packages/80/ce/e99def6196f53af8de12a9c36968de32f80b7871084d677d0dfcd2762d0b/referencing-0.31.1.tar.gz"
+    sha256 "81a1471c68c9d5e3831c30ad1dd9815c45b558e596653db751a2bfdd17b3b9ec"
   end
 
   resource "requests" do
@@ -163,8 +163,8 @@ class Bowtie < Formula
   end
 
   resource "rpds-py" do
-    url "https://files.pythonhosted.org/packages/94/3f/b58db0c212ba3a89378d1684f871e0e7783fc34fadc7696e5439c8c9338e/rpds_py-0.13.1.tar.gz"
-    sha256 "264f3a5906c62b9df3a00ad35f6da1987d321a053895bd85f9d5c708de5c0fbf"
+    url "https://files.pythonhosted.org/packages/48/0b/f42f99419c5150c2741fe28bf97674d928d46ee17f46f2bc5be031cce0bc/rpds_py-0.13.2.tar.gz"
+    sha256 "f8eae66a1304de7368932b42d801c67969fd090ddb1a7a24f27b435ed4bed68f"
   end
 
   resource "six" do
@@ -178,8 +178,8 @@ class Bowtie < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/00/62/697cdf35a02a3a6e567d6fcd5dcd0a0aa250070fd6a596581212fe20950b/textual-0.42.0.tar.gz"
-    sha256 "0e06630a3c68a04a3215ced71dcfb14d888adce1ae241be1bb01155a25d9f0bf"
+    url "https://files.pythonhosted.org/packages/fc/d6/bc4dc118d983c067e9ada78b8f45ed9536901a0e8de1326a60faeb097a75/textual-0.44.1.tar.gz"
+    sha256 "7a45b85943957095b97d0a90c4fa4d3e1028fa26493c0720f403d879157a6589"
   end
 
   resource "trogon" do
@@ -213,8 +213,8 @@ class Bowtie < Formula
   end
 
   resource "yarl" do
-    url "https://files.pythonhosted.org/packages/ca/f7/2af788563995eeec32b920c0640a6bc54777c89c780030a7754f95166b7f/yarl-1.9.3.tar.gz"
-    sha256 "4a14907b597ec55740f63e52d7fee0e9ee09d5b9d57a4f399a7423268e457b57"
+    url "https://files.pythonhosted.org/packages/e0/ad/bedcdccbcbf91363fd425a948994f3340924145c2bc8ccb296f4a1e52c28/yarl-1.9.4.tar.gz"
+    sha256 "566db86717cf8080b99b58b083b773a908ae40f06681e87e589a976faf8246bf"
   end
 
   resource "zipp" do
