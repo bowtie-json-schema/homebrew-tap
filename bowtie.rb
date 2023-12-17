@@ -73,8 +73,8 @@ class Bowtie < Formula
   end
 
   resource "frozenlist" do
-    url "https://files.pythonhosted.org/packages/8c/1f/49c96ccc87127682ba900b092863ef7c20302a2144b3185412a08480ca22/frozenlist-1.4.0.tar.gz"
-    sha256 "09163bdf0b2907454042edb19f887c6d33806adc71fbd54afc14908bfdc22251"
+    url "https://files.pythonhosted.org/packages/cf/3d/2102257e7acad73efc4a0c306ad3953f68c504c16982bbdfee3ad75d8085/frozenlist-1.4.1.tar.gz"
+    sha256 "c037a86e8513059a2613aaba4d817bb90b9d9b6b69aace3ce9c877e8c8ed402b"
   end
 
   resource "github3-py" do
@@ -85,11 +85,6 @@ class Bowtie < Formula
   resource "idna" do
     url "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz"
     sha256 "9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca"
-  end
-
-  resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/db/5a/392426ddb5edfebfcb232ab7a47e4a827aa1d5b5267a5c20c448615feaa9/importlib_metadata-7.0.0.tar.gz"
-    sha256 "7fc841f8b8332803464e5dc1c63a2e59121f46ca186c0e2e182e80bf8c1319f7"
   end
 
   resource "jsonschema" do
@@ -152,6 +147,11 @@ class Bowtie < Formula
     sha256 "689e64fe121843dcfd57b71933318ef1f91188ffb45367332700a86ac8fd6161"
   end
 
+  resource "referencing-loaders" do
+    url "https://files.pythonhosted.org/packages/12/4c/e0d66851b823aa0d92ff38ad9544e2ddb08c0c3ba69550af368704226df1/referencing_loaders-0.4.2.tar.gz"
+    sha256 "cbc0539bcf0e962454884f77b9f102a4889701d10cc14ed256746e90705f4687"
+  end
+
   resource "requests" do
     url "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz"
     sha256 "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
@@ -163,8 +163,8 @@ class Bowtie < Formula
   end
 
   resource "rpds-py" do
-    url "https://files.pythonhosted.org/packages/48/0b/f42f99419c5150c2741fe28bf97674d928d46ee17f46f2bc5be031cce0bc/rpds_py-0.13.2.tar.gz"
-    sha256 "f8eae66a1304de7368932b42d801c67969fd090ddb1a7a24f27b435ed4bed68f"
+    url "https://files.pythonhosted.org/packages/a9/27/92d18887228969196cd80943e3fb94520925462aa660fb491e4e2da93e56/rpds_py-0.15.2.tar.gz"
+    sha256 "373b76eeb79e8c14f6d82cb1d4d5293f9e4059baec6c1b16dca7ad13b6131b39"
   end
 
   resource "six" do
@@ -178,8 +178,8 @@ class Bowtie < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/fc/d6/bc4dc118d983c067e9ada78b8f45ed9536901a0e8de1326a60faeb097a75/textual-0.44.1.tar.gz"
-    sha256 "7a45b85943957095b97d0a90c4fa4d3e1028fa26493c0720f403d879157a6589"
+    url "https://files.pythonhosted.org/packages/74/81/deb64257783485f58c5233fc4363d6ab1d6a1b249b5491bf45a366801255/textual-0.46.0.tar.gz"
+    sha256 "66d30f07d082ee5083ea898103e70b8720a98658e0bd3153fbb934a437ffe6f5"
   end
 
   resource "trogon" do
@@ -188,8 +188,8 @@ class Bowtie < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/1f/7a/8b94bb016069caa12fc9f587b28080ac33b4fbb8ca369b98bc0a4828543e/typing_extensions-4.8.0.tar.gz"
-    sha256 "df8e4339e9cb77357558cbdbceca33c303714cf861d1eef15e1070055ae8b7ef"
+    url "https://files.pythonhosted.org/packages/0c/1d/eb26f5e75100d531d7399ae800814b069bc2ed2a7410834d57374d010d96/typing_extensions-4.9.0.tar.gz"
+    sha256 "23478f88c37f27d76ac8aee6c905017a143b0b1b886c3c9f66bc2fd94f9f5783"
   end
 
   resource "uc-micro-py" do
@@ -215,11 +215,6 @@ class Bowtie < Formula
   resource "yarl" do
     url "https://files.pythonhosted.org/packages/e0/ad/bedcdccbcbf91363fd425a948994f3340924145c2bc8ccb296f4a1e52c28/yarl-1.9.4.tar.gz"
     sha256 "566db86717cf8080b99b58b083b773a908ae40f06681e87e589a976faf8246bf"
-  end
-
-  resource "zipp" do
-    url "https://files.pythonhosted.org/packages/58/03/dd5ccf4e06dec9537ecba8fcc67bbd4ea48a2791773e469e73f94c3ba9a6/zipp-3.17.0.tar.gz"
-    sha256 "84e64a1c28cf7e91ed2078bb8cc8c259cb19b76942096c8d7b84947690cabaf0"
   end
 
   def install
