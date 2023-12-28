@@ -67,6 +67,11 @@ class Bowtie < Formula
     sha256 "2a92379a6189ec9dd37f8f228fb20b4b409d7c6044dcd9fd65ed658745bb2467"
   end
 
+  resource "diff" do
+    url "https://files.pythonhosted.org/packages/40/73/4d006eeb051f3a9eaf12d8c0d94569aef661a257926fd7a0bedd010af706/diff-2023.12.4.tar.gz"
+    sha256 "afbe8e2ae9beb3c5b22cdadd6628c1de8efbeed6f6dd09322be3ec2700f5fe5f"
+  end
+
   resource "docutils" do
     url "https://files.pythonhosted.org/packages/1f/53/a5da4f2c5739cf66290fac1431ee52aff6851c7c8ffd8264f13affd7bcdd/docutils-0.20.1.tar.gz"
     sha256 "f08a4e276c3a1583a86dce3e34aba3fe04d02bba2dd51ed16106244e8a923e3b"
@@ -93,8 +98,8 @@ class Bowtie < Formula
   end
 
   resource "jsonschema-specifications" do
-    url "https://files.pythonhosted.org/packages/8c/ce/1eb873a0ba153cf327464c752412b42d11b9c889d208beca7ef75540d128/jsonschema_specifications-2023.11.2.tar.gz"
-    sha256 "9472fc4fea474cd74bea4a2b190daeccb5a9e4db2ea80efcf7a1b582fc9a81b8"
+    url "https://files.pythonhosted.org/packages/f8/b9/cc0cc592e7c195fb8a650c1d5990b10175cf13b4c97465c72ec841de9e4b/jsonschema_specifications-2023.12.1.tar.gz"
+    sha256 "48a76787b3e70f5ed53f1160d2b81f586e4ca6d1548c5de7085d1682674764cc"
   end
 
   resource "linkify-it-py" do
