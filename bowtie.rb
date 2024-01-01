@@ -33,8 +33,8 @@ class Bowtie < Formula
   end
 
   resource "attrs" do
-    url "https://files.pythonhosted.org/packages/97/90/81f95d5f705be17872843536b1868f351805acf6971251ff07c1b8334dbb/attrs-23.1.0.tar.gz"
-    sha256 "6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015"
+    url "https://files.pythonhosted.org/packages/e3/fc/f800d51204003fa8ae392c4e8278f256206e7a919b708eef054f5f4b650d/attrs-23.2.0.tar.gz"
+    sha256 "935dc3b529c262f6cf76e50877d35a4bd3c1de194fd41f47a2b7ae8f19971f30"
   end
 
   resource "certifi" do
@@ -65,11 +65,6 @@ class Bowtie < Formula
   resource "diagnostic" do
     url "https://files.pythonhosted.org/packages/62/8f/e8600f6c2b52b620be7bfda707955f7cf6ebe78cac899add840dc066f8c7/diagnostic-2.0.0.tar.gz"
     sha256 "2a92379a6189ec9dd37f8f228fb20b4b409d7c6044dcd9fd65ed658745bb2467"
-  end
-
-  resource "diff" do
-    url "https://files.pythonhosted.org/packages/40/73/4d006eeb051f3a9eaf12d8c0d94569aef661a257926fd7a0bedd010af706/diff-2023.12.4.tar.gz"
-    sha256 "afbe8e2ae9beb3c5b22cdadd6628c1de8efbeed6f6dd09322be3ec2700f5fe5f"
   end
 
   resource "docutils" do
@@ -168,8 +163,8 @@ class Bowtie < Formula
   end
 
   resource "rpds-py" do
-    url "https://files.pythonhosted.org/packages/a9/27/92d18887228969196cd80943e3fb94520925462aa660fb491e4e2da93e56/rpds_py-0.15.2.tar.gz"
-    sha256 "373b76eeb79e8c14f6d82cb1d4d5293f9e4059baec6c1b16dca7ad13b6131b39"
+    url "https://files.pythonhosted.org/packages/c2/63/94a1e9406b34888bdf8506e91d654f1cd84365a5edafa5f8ff0c97d4d9e1/rpds_py-0.16.2.tar.gz"
+    sha256 "781ef8bfc091b19960fc0142a23aedadafa826bc32b433fdfe6fd7f964d7ef44"
   end
 
   resource "six" do
@@ -178,8 +173,8 @@ class Bowtie < Formula
   end
 
   resource "structlog" do
-    url "https://files.pythonhosted.org/packages/99/4c/67e8cc235bbeb0a87053739c4c9d0619e3f284730ebdb2b34349488d9e8a/structlog-23.2.0.tar.gz"
-    sha256 "334666b94707f89dbc4c81a22a8ccd34449f0201d5b1ee097a030b577fa8c858"
+    url "https://files.pythonhosted.org/packages/44/30/1f73c8813fa47208cf17dc1239c148298ffafb11301b18071b8c6ba19f37/structlog-23.3.0.tar.gz"
+    sha256 "24b42b914ac6bc4a4e6f716e82ac70d7fb1e8c3b1035a765591953bfc37101a5"
   end
 
   resource "textual" do
