@@ -92,6 +92,11 @@ class Bowtie < Formula
     sha256 "85727c00279f5fa6bedbe6238d2aa6403bedd8b4864ab11207d07df3cc1b2ee5"
   end
 
+  resource "jsonschema-lexer" do
+    url "https://files.pythonhosted.org/packages/7d/eb/ca0d9d49bdeb7e53dd0da0336a915caf41c3fa17a2e354217d9d5fa0252d/jsonschema_lexer-0.2.1.tar.gz"
+    sha256 "45eb765bd428d849907e24ef989f421a4ca63447d10ab1b4f4171471d558939b"
+  end
+
   resource "jsonschema-specifications" do
     url "https://files.pythonhosted.org/packages/f8/b9/cc0cc592e7c195fb8a650c1d5990b10175cf13b4c97465c72ec841de9e4b/jsonschema_specifications-2023.12.1.tar.gz"
     sha256 "48a76787b3e70f5ed53f1160d2b81f586e4ca6d1548c5de7085d1682674764cc"
@@ -128,18 +133,18 @@ class Bowtie < Formula
   end
 
   resource "python-dateutil" do
-    url "https://files.pythonhosted.org/packages/4c/c4/13b4776ea2d76c115c1d1b84579f3764ee6d57204f6be27119f13a61d0a9/python-dateutil-2.8.2.tar.gz"
-    sha256 "0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"
+    url "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz"
+    sha256 "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3"
   end
 
   resource "referencing" do
-    url "https://files.pythonhosted.org/packages/21/c5/b99dd501aa72b30a5a87d488d7aa76ec05bdf0e2c7439bc82deb9448dd9a/referencing-0.33.0.tar.gz"
-    sha256 "c775fedf74bc0f9189c2a3be1c12fd03e8c23f4d371dce795df44e06c5b412f7"
+    url "https://files.pythonhosted.org/packages/59/d7/48b862b8133da2e0ed091195028f0d45c4d0be0f7f23dbe046a767282f37/referencing-0.34.0.tar.gz"
+    sha256 "5773bd84ef41799a5a8ca72dc34590c041eb01bf9aa02632b4a973fb0181a844"
   end
 
   resource "referencing-loaders" do
-    url "https://files.pythonhosted.org/packages/12/4c/e0d66851b823aa0d92ff38ad9544e2ddb08c0c3ba69550af368704226df1/referencing_loaders-0.4.2.tar.gz"
-    sha256 "cbc0539bcf0e962454884f77b9f102a4889701d10cc14ed256746e90705f4687"
+    url "https://files.pythonhosted.org/packages/36/40/e6ac2ea44db0665854eced21b49145a71cfdce0db34011eb2593b66fe565/referencing_loaders-2024.5.1.tar.gz"
+    sha256 "9f84c171be12170aa3349e43aef1449cc9fa124b7dbfc78f998d700a3b8664f6"
   end
 
   resource "requests" do
@@ -148,8 +153,8 @@ class Bowtie < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/a7/ec/4a7d80728bd429f7c0d4d51245287158a1516315cadbb146012439403a9d/rich-13.7.0.tar.gz"
-    sha256 "5cb5123b5cf9ee70584244246816e9114227e0b98ad9176eede6ad54bf5403fa"
+    url "https://files.pythonhosted.org/packages/b3/01/c954e134dc440ab5f96952fe52b4fdc64225530320a910473c1fe270d9aa/rich-13.7.1.tar.gz"
+    sha256 "9be308cb1fe2f1f57d67ce99e95af38a1e2bc71ad9813b0e247cf7ffbcc3a432"
   end
 
   resource "rpds-py" do
