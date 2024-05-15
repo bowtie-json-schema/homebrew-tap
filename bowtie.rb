@@ -58,8 +58,8 @@ class Bowtie < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/13/9e/a55763a32d340d7b06d045753c186b690e7d88780cafce5f88cb931536be/cryptography-42.0.5.tar.gz"
-    sha256 "6fe07eec95dfd477eb9530aef5bead34fec819b3aaf6c5bd6d20565da607bfe1"
+    url "https://files.pythonhosted.org/packages/78/63/66c03eb51f0d241862083deb3f17ab5fce08cf6b347db7887bcb4d1a194e/cryptography-42.0.7.tar.gz"
+    sha256 "ecbfbc00bf55888edda9868a4cf927205de8499e7fabe6c050322298382953f2"
   end
 
   resource "diagnostic" do
@@ -68,8 +68,8 @@ class Bowtie < Formula
   end
 
   resource "docutils" do
-    url "https://files.pythonhosted.org/packages/21/ff/c495b797462434f0befcb598b51cde31c3ebdf8577c3fd9d9a8f5eeb844c/docutils-0.21.1.tar.gz"
-    sha256 "65249d8a5345bc95e0f40f280ba63c98eb24de35c6c8f5b662e3e8948adea83f"
+    url "https://files.pythonhosted.org/packages/ae/ed/aefcc8cd0ba62a0560c3c18c33925362d46c6075480bfa4df87b28e169a9/docutils-0.21.2.tar.gz"
+    sha256 "3a6b18732edf182daa3cd12775bbb338cf5691468f91eeeb109deff6ebfa986f"
   end
 
   resource "frozenlist" do
@@ -88,8 +88,8 @@ class Bowtie < Formula
   end
 
   resource "jsonschema" do
-    url "https://files.pythonhosted.org/packages/4d/c5/3f6165d3df419ea7b0990b3abed4ff348946a826caf0e7c990b65ff7b9be/jsonschema-4.21.1.tar.gz"
-    sha256 "85727c00279f5fa6bedbe6238d2aa6403bedd8b4864ab11207d07df3cc1b2ee5"
+    url "https://files.pythonhosted.org/packages/19/f1/1c1dc0f6b3bf9e76f7526562d29c320fa7d6a2f35b37a1392cc0acd58263/jsonschema-4.22.0.tar.gz"
+    sha256 "5b22d434a45935119af990552c862e5d6d564e8f6601206b305a61fdf661a2b7"
   end
 
   resource "jsonschema-lexer" do
@@ -123,8 +123,8 @@ class Bowtie < Formula
   end
 
   resource "pygments" do
-    url "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz"
-    sha256 "da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"
+    url "https://files.pythonhosted.org/packages/8e/62/8336eff65bcbc8e4cb5d05b55faf041285951b6e80f33e2bff2024788f31/pygments-2.18.0.tar.gz"
+    sha256 "786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199"
   end
 
   resource "pyjwt" do
@@ -138,13 +138,13 @@ class Bowtie < Formula
   end
 
   resource "referencing" do
-    url "https://files.pythonhosted.org/packages/59/d7/48b862b8133da2e0ed091195028f0d45c4d0be0f7f23dbe046a767282f37/referencing-0.34.0.tar.gz"
-    sha256 "5773bd84ef41799a5a8ca72dc34590c041eb01bf9aa02632b4a973fb0181a844"
+    url "https://files.pythonhosted.org/packages/99/5b/73ca1f8e72fff6fa52119dbd185f73a907b1989428917b24cff660129b6d/referencing-0.35.1.tar.gz"
+    sha256 "25b42124a6c8b632a425174f24087783efb348a6f1e0008e63cd4466fedf703c"
   end
 
   resource "referencing-loaders" do
-    url "https://files.pythonhosted.org/packages/36/40/e6ac2ea44db0665854eced21b49145a71cfdce0db34011eb2593b66fe565/referencing_loaders-2024.5.1.tar.gz"
-    sha256 "9f84c171be12170aa3349e43aef1449cc9fa124b7dbfc78f998d700a3b8664f6"
+    url "https://files.pythonhosted.org/packages/f4/34/4935a439c5413b9b5cbe21b87915097a81e3e5b3dfa45dada2bf8a986b5e/referencing_loaders-2024.5.2.tar.gz"
+    sha256 "1e65eba65eacfaed8e3a26c467267b238ccef15582d14688e27169c5a7767567"
   end
 
   resource "requests" do
@@ -158,13 +158,13 @@ class Bowtie < Formula
   end
 
   resource "rich-click" do
-    url "https://files.pythonhosted.org/packages/8b/05/14bb70d012c71103999d3335ae4939c5f74d89ffb7f41509b2bf4f6f1bf1/rich_click-1.8.0.dev6.tar.gz"
-    sha256 "c33d08a0de2c5f24748b377a2a1d8bb8e4cb035e641db2bf07d470199ed6311f"
+    url "https://files.pythonhosted.org/packages/e7/ba/80b7753b2d6b366c32bc3ab7f47214d61b7fcf057edfafe9b5bd47e5a884/rich_click-1.8.2.tar.gz"
+    sha256 "8e29bdede858b59aa2859a1ab1c4ccbd39ed7ed5870262dae756fba6b5dc72e8"
   end
 
   resource "rpds-py" do
-    url "https://files.pythonhosted.org/packages/55/ba/ce7b9f0fc5323f20ffdf85f682e51bee8dc03e9b54503939ebb63d1d0d5e/rpds_py-0.18.0.tar.gz"
-    sha256 "42821446ee7a76f5d9f71f9e33a4fb2ffd724bb3e7f93386150b61a43115788d"
+    url "https://files.pythonhosted.org/packages/2d/aa/e7c404bdee1db7be09860dff423d022ffdce9269ec8e6532cce09ee7beea/rpds_py-0.18.1.tar.gz"
+    sha256 "dc48b479d540770c811fbd1eb9ba2bb66951863e448efec2e2c102625328e92f"
   end
 
   resource "six" do
