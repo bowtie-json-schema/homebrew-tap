@@ -33,8 +33,8 @@ class Bowtie < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz"
-    sha256 "f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6"
+    url "https://files.pythonhosted.org/packages/e6/e3/c4c8d473d6780ef1853d630d581f70d655b4f8d7553c6997958c283039a2/anyio-4.4.0.tar.gz"
+    sha256 "5aadc6a1bbb7cdb0bede386cac5e2940f5e2ff3aa20277e991cf028e0585ce94"
   end
 
   resource "attrs" do
@@ -43,8 +43,8 @@ class Bowtie < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz"
-    sha256 "0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f"
+    url "https://files.pythonhosted.org/packages/07/b3/e02f4f397c81077ffc52a538e0aec464016f1860c472ed33bd2a1d220cc5/certifi-2024.6.2.tar.gz"
+    sha256 "3cd43f1c6fa7dedc5899d69d3ad0398fd018ad1a17fba83ddaf78aa46c747516"
   end
 
   resource "cffi" do
@@ -63,8 +63,8 @@ class Bowtie < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/78/63/66c03eb51f0d241862083deb3f17ab5fce08cf6b347db7887bcb4d1a194e/cryptography-42.0.7.tar.gz"
-    sha256 "ecbfbc00bf55888edda9868a4cf927205de8499e7fabe6c050322298382953f2"
+    url "https://files.pythonhosted.org/packages/93/a7/1498799a2ea06148463a9a2c10ab2f6a921a74fb19e231b27dc412a748e2/cryptography-42.0.8.tar.gz"
+    sha256 "8d09d05439ce7baa8e9e95b07ec5b6c886f548deb7e0f69ef25f64b3bce842f2"
   end
 
   resource "diagnostic" do
@@ -168,8 +168,8 @@ class Bowtie < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/86/ec/535bf6f9bd280de6a4637526602a146a68fde757100ecf8c9333173392db/requests-2.32.2.tar.gz"
-    sha256 "dd951ff5ecf3e3b3aa26b40703ba77495dab41da839ae72ef3c8e5d8e2433289"
+    url "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz"
+    sha256 "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760"
   end
 
   resource "rich" do
@@ -178,8 +178,8 @@ class Bowtie < Formula
   end
 
   resource "rich-click" do
-    url "https://files.pythonhosted.org/packages/e7/ba/80b7753b2d6b366c32bc3ab7f47214d61b7fcf057edfafe9b5bd47e5a884/rich_click-1.8.2.tar.gz"
-    sha256 "8e29bdede858b59aa2859a1ab1c4ccbd39ed7ed5870262dae756fba6b5dc72e8"
+    url "https://files.pythonhosted.org/packages/3a/a9/a1f1af87e83832d794342fbc09c96cc7cd6798b8dfb8adfbe6ccbef8d70c/rich_click-1.8.3.tar.gz"
+    sha256 "6d75bdfa7aa9ed2c467789a0688bc6da23fbe3a143e19aa6ad3f8bac113d2ab3"
   end
 
   resource "rpds-py" do
@@ -198,13 +198,13 @@ class Bowtie < Formula
   end
 
   resource "structlog" do
-    url "https://files.pythonhosted.org/packages/d1/ac/87aedb7a9ba52f645b9d29a7f48bb12a5c6b7e204b8137549fbe4754b563/structlog-24.1.0.tar.gz"
-    sha256 "41a09886e4d55df25bdcb9b5c9674bccfab723ff43e0a86a1b7b236be8e57b16"
+    url "https://files.pythonhosted.org/packages/87/87/9b237eda856dc3e72f2485e884f59fe0ee8be49aa2ce8eff3a425c388766/structlog-24.2.0.tar.gz"
+    sha256 "0e3fe74924a6d8857d3f612739efb94c72a7417d7c7c008d12276bca3b5bf13b"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/f6/f3/b827b3ab53b4e3d8513914586dcca61c355fa2ce8252dea4da56e67bf8f2/typing_extensions-4.11.0.tar.gz"
-    sha256 "83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"
+    url "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz"
+    sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
   end
 
   resource "uritemplate" do
@@ -213,8 +213,8 @@ class Bowtie < Formula
   end
 
   resource "url-py" do
-    url "https://files.pythonhosted.org/packages/7e/cb/fd0a418632c5adfae78728168392e0052b99bfc77a24fa666c52a333021e/url_py-0.10.0.tar.gz"
-    sha256 "9560a1f9857e4c1401743c08f6ed69c14ead277bbaeb759fb27ffb452c9d562e"
+    url "https://files.pythonhosted.org/packages/17/18/38585387903ef5f0f1f8e8b411efaaf14dc466b2ad419b239d0a37afda14/url_py-0.11.3.tar.gz"
+    sha256 "1a5a2f1eb14f9a3842d823000869509c4860ff8d996b3f9e159e0d1760e7fd23"
   end
 
   resource "urllib3" do
