@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update Homebrew Formulae
-        uses: dawidd6/action-homebrew-bump-formula@v3
+        uses: dawidd6/action-homebrew-bump-formula@v4
         with:
           token: "${{ secrets.ACCESS_TOKEN }}"
           tap: bowtie-json-schema/homebrew-tap
