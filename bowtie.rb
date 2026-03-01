@@ -15,7 +15,7 @@ class Bowtie < Formula
 
   depends_on "rust" => :build  # for cryptography
   depends_on "podman"
-  depends_on "python@3.12"
+  depends_on "python@3.14"
 
   resource "aiodocker" do
     url "https://files.pythonhosted.org/packages/f2/d7/30104dfac550ae6570d4dce24c2cbf2ddefd4937c9e861641314abfd8abb/aiodocker-0.24.0.tar.gz"
